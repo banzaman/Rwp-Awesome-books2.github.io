@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+
+    <header class="header">
+        <h1 class="logo">Awesome books</h1>
+        <nav class="nav">
+          <ul class="navlist">
+            <li class="navitem"><a class="navlink" href="#bookList">List</a></li>
+            <li class="navitem"><a class="navlink" href="#addnew">Add new</a></li>
+            <li class="navitem"><a class="navlink" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+    <div class="date"></div>
+
+    <main class="main">
+      <section class="section">
+        <h2>All Awesome books</h2>
+        <div id="bookList"></div>
+      </section>
+
+      <section class="addbookform section" id="addnew">
+        <h2>Add a new book</h2>
+        <form  id="add" class="addBook" action="index.html" method="post">
+          <input type="text" name="Title" value="" placeholder="Title">
+          <input type="text" name="Author" value="" placeholder="Author">
+          <input id="addBtn" type="submit" name="Add" value="Add">
+        </form>
+      </section>
+
+      <section class="contactsection section" id="contact">
+        <h2>Contact information</h2>
+        <p>Do you have any questions or you just want to say "hello"?</p>
+        <ul>
+          <li class="contactlist">Our email: mail@mail.com</li>
+          <li class="contactlist">Our phonme number: 757543893</li>
+          <li class="contactlist">Our address: Streetname 22, 17389 City, Country</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <h1 class="logo">Copyright</h1>
+      <nav class="nav">
+        <p>.......</p>
+      </nav>
+  </footer>
+
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
